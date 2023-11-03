@@ -1,0 +1,4 @@
+Open questions:
+1. What is the expected traffic for both reads and writes? The choice of storage technology (relational DB/NoSql/Kafka?) and application framework could depend on the answer.
+2. Do we expect much changes/extensions to the solution? Maybe a simplistic architecure will suffice?
+3. Do we expect a lot of different types of integrations (both inbound and outbound, like files, different MQs)? If so we should pick a framework like Apache Camel that gives us this out-of-the-box.
